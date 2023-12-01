@@ -7,6 +7,9 @@
   - npm install --save-dev @angular/compiler-cli@11.2.5
   - npm install @angular/core@11.2.5
 
+## Node Version IMPORTANTE!!!!
+ - version de node: v10.13.0
+ - por favor usar nvm para switchear a la version deseada
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
 
