@@ -81,5 +81,17 @@ export class AllCharactersComponent implements OnInit {
     })
   }
 
+  getDescription(characterName: string) {
+    this.service.getCharacterByName(characterName).subscribe((result) => {
+      const character = result.data.results[0];
+      if (character && character.description) {
+        
+        console.log(character.description);
+      } else {
+        console.log('No se encontró la descripción del personaje.');
+      }
+    });
+  }
+
 
 }
